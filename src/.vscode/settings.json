@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/aditya/ros2_ws/install/my_robot_py/lib/python3.10/site-packages",
+        "/home/aditya/ros2_ws/install/my_robot/lib/python3.10/site-packages",
+        "/home/aditya/ros2_ws/install/custom_service/local/lib/python3.10/dist-packages",
+        "/home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages",
+        "/home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages",
+        "/home/aditya/task_3/install/launch_tutorial/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/aditya/ros2_ws/install/my_robot_py/lib/python3.10/site-packages",
+        "/home/aditya/ros2_ws/install/my_robot/lib/python3.10/site-packages",
+        "/home/aditya/ros2_ws/install/custom_service/local/lib/python3.10/dist-packages",
+        "/home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages",
+        "/home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages",
+        "/home/aditya/task_3/install/launch_tutorial/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

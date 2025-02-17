@@ -1,0 +1,6 @@
+{
+  "package_name": "rviz",
+  "non_idl_tuples": [
+    "/home/aditya/ros2_rviz/src/rviz:msg/Point2D.msg"
+  ]
+}

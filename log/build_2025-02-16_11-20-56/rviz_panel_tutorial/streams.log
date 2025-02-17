@@ -1,0 +1,80 @@
+[0.008s] Invoking command in '/home/aditya/ros2_rviz/build/rviz_panel_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aditya/ros2_ws/install/my_robot_py:/home/aditya/ros2_ws/install/my_robot:/home/aditya/task_3/install/py_launch_example:/home/aditya/task_3/install/learning_tf2_py:/home/aditya/task_3/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/aditya/ros2_rviz/src/rviz_panel_tutorial -DCMAKE_INSTALL_PREFIX=/home/aditya/ros2_rviz/install/rviz_panel_tutorial
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.253s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.400s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.486s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.528s] -- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)
+[0.552s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.561s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.563s] -- Found OGRE
+[0.563s] --   static     : OFF
+[0.563s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.564s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.564s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.564s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.564s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.564s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.564s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.564s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.564s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.564s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.564s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.593s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.599s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.692s] -- Found X11: /usr/include   
+[0.692s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.751s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.751s] -- Looking for gethostbyname
+[0.800s] -- Looking for gethostbyname - found
+[0.800s] -- Looking for connect
+[0.853s] -- Looking for connect - found
+[0.853s] -- Looking for remove
+[0.902s] -- Looking for remove - found
+[0.902s] -- Looking for shmat
+[0.954s] -- Looking for shmat - found
+[0.954s] -- Looking for IceConnectionNumber in ICE
+[1.002s] -- Looking for IceConnectionNumber in ICE - found
+[1.069s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.093s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.097s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.105s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.197s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.200s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.226s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.265s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.267s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.277s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.279s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.286s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.294s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.303s] -- Looking for pthread.h
+[1.355s] -- Looking for pthread.h - found
+[1.355s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.408s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.409s] -- Found Threads: TRUE  
+[1.477s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.477s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.578s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[1.578s]   Given plugin description file
+[1.578s]   '/home/aditya/ros2_rviz/src/rviz_panel_tutorial/rviz_common_plugins.xml'
+[1.578s]   does not exist
+[1.578s] Call Stack (most recent call first):
+[1.578s]   CMakeLists.txt:41 (pluginlib_export_plugin_description_file)
+[1.578s] 
+[1.578s] [0m
+[1.578s] -- Configuring incomplete, errors occurred!
+[1.578s] See also "/home/aditya/ros2_rviz/build/rviz_panel_tutorial/CMakeFiles/CMakeOutput.log".
+[1.586s] Invoked command in '/home/aditya/ros2_rviz/build/rviz_panel_tutorial' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aditya/ros2_ws/install/my_robot_py:/home/aditya/ros2_ws/install/my_robot:/home/aditya/task_3/install/py_launch_example:/home/aditya/task_3/install/learning_tf2_py:/home/aditya/task_3/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake /home/aditya/ros2_rviz/src/rviz_panel_tutorial -DCMAKE_INSTALL_PREFIX=/home/aditya/ros2_rviz/install/rviz_panel_tutorial

@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (rviz) JobQueued: {'identifier': 'rviz', 'dependencies': OrderedDict()}
+[0.000223] (rviz_panel_tutorial) JobQueued: {'identifier': 'rviz_panel_tutorial', 'dependencies': OrderedDict()}
+[0.000508] (rviz) JobStarted: {'identifier': 'rviz'}
+[0.005885] (rviz_panel_tutorial) JobStarted: {'identifier': 'rviz_panel_tutorial'}
+[0.009594] (rviz) JobProgress: {'identifier': 'rviz', 'progress': 'cmake'}
+[0.010072] (rviz) Command: {'cmd': ['/usr/bin/cmake', '/home/aditya/ros2_rviz/src/rviz', '-DCMAKE_INSTALL_PREFIX=/home/aditya/ros2_rviz/install/rviz'], 'cwd': '/home/aditya/ros2_rviz/build/rviz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aditya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aditya/ros2_ws/install/custom_service/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aditya'), ('OLDPWD', '/home/aditya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1535'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aditya/ros2_ws/install:/home/aditya/task_3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aditya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aditya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aditya-Swift-SF314-511:@/tmp/.ICE-unix/1508,unix/aditya-Swift-SF314-511:/tmp/.ICE-unix/1508'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/823ee7a6_9d0d_40ec_aac1_bb5e1e6a8ce5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LWT112'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.435'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aditya/ros2_ws/install/turtle_cpp:/home/aditya/ros2_ws/install/my_robot_py:/home/aditya/ros2_ws/install/my_robot:/home/aditya/ros2_ws/install/custom_service:/home/aditya/ros2_ws/install/cpp_srvcli:/home/aditya/task_3/install/py_launch_example:/home/aditya/task_3/install/learning_tf2_py:/home/aditya/task_3/install/launch_tutorial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aditya/ros2_rviz/build/rviz'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aditya/ros2_ws/install/my_robot_py/lib/python3.10/site-packages:/home/aditya/ros2_ws/install/my_robot/lib/python3.10/site-packages:/home/aditya/ros2_ws/install/custom_service/local/lib/python3.10/dist-packages:/home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages:/home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages:/home/aditya/task_3/install/launch_tutorial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aditya/ros2_ws/install/turtle_cpp:/home/aditya/ros2_ws/install/custom_service:/home/aditya/ros2_ws/install/cpp_srvcli:/home/aditya/ros2_ws/install/my_robot_py:/home/aditya/ros2_ws/install/my_robot:/home/aditya/task_3/install/py_launch_example:/home/aditya/task_3/install/learning_tf2_py:/home/aditya/task_3/install/launch_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.012563] (rviz_panel_tutorial) JobProgress: {'identifier': 'rviz_panel_tutorial', 'progress': 'cmake'}
+[0.012987] (rviz_panel_tutorial) Command: {'cmd': ['/usr/bin/cmake', '/home/aditya/ros2_rviz/src/rviz_panel_tutorial', '-DCMAKE_INSTALL_PREFIX=/home/aditya/ros2_rviz/install/rviz_panel_tutorial'], 'cwd': '/home/aditya/ros2_rviz/build/rviz_panel_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aditya'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aditya/ros2_ws/install/custom_service/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aditya'), ('OLDPWD', '/home/aditya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1535'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aditya/ros2_ws/install:/home/aditya/task_3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aditya'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aditya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aditya-Swift-SF314-511:@/tmp/.ICE-unix/1508,unix/aditya-Swift-SF314-511:/tmp/.ICE-unix/1508'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/823ee7a6_9d0d_40ec_aac1_bb5e1e6a8ce5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LWT112'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.435'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aditya/ros2_ws/install/turtle_cpp:/home/aditya/ros2_ws/install/my_robot_py:/home/aditya/ros2_ws/install/my_robot:/home/aditya/ros2_ws/install/custom_service:/home/aditya/ros2_ws/install/cpp_srvcli:/home/aditya/task_3/install/py_launch_example:/home/aditya/task_3/install/learning_tf2_py:/home/aditya/task_3/install/launch_tutorial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aditya/ros2_rviz/build/rviz_panel_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aditya/ros2_ws/install/my_robot_py/lib/python3.10/site-packages:/home/aditya/ros2_ws/install/my_robot/lib/python3.10/site-packages:/home/aditya/ros2_ws/install/custom_service/local/lib/python3.10/dist-packages:/home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages:/home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages:/home/aditya/task_3/install/launch_tutorial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aditya/ros2_ws/install/turtle_cpp:/home/aditya/ros2_ws/install/custom_service:/home/aditya/ros2_ws/install/cpp_srvcli:/home/aditya/ros2_ws/install/my_robot_py:/home/aditya/ros2_ws/install/my_robot:/home/aditya/task_3/install/py_launch_example:/home/aditya/task_3/install/learning_tf2_py:/home/aditya/task_3/install/launch_tutorial:/opt/ros/humble')]), 'shell': False}
+[0.072995] (rviz) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.073147] (rviz_panel_tutorial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099906] (-) TimerEvent: {}
+[0.125586] (rviz_panel_tutorial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.125817] (rviz) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.133196] (rviz) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.133364] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.184812] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.184944] (rviz) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.190146] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.190266] (rviz) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.190455] (rviz) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.190533] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.190972] (rviz) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.191056] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.193485] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193546] (rviz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199985] (-) TimerEvent: {}
+[0.253132] (rviz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.253315] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.258640] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.258876] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.259005] (rviz) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.259165] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.259266] (rviz) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.259649] (rviz) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.261556] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.263602] (rviz) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300106] (-) TimerEvent: {}
+[0.400379] (-) TimerEvent: {}
+[0.406039] (rviz) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.406202] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.491805] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[0.494987] (rviz) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.499097] (rviz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500443] (-) TimerEvent: {}
+[0.505796] (rviz) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.534296] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[0.552863] (rviz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.557795] (rviz_panel_tutorial) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[0.567479] (rviz_panel_tutorial) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.569435] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.569546] (rviz_panel_tutorial) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.569606] (rviz_panel_tutorial) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.569664] (rviz_panel_tutorial) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.569788] (rviz_panel_tutorial) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.569842] (rviz_panel_tutorial) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.569905] (rviz_panel_tutorial) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[0.570006] (rviz_panel_tutorial) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.570046] (rviz_panel_tutorial) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.570085] (rviz_panel_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.570123] (rviz_panel_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.570162] (rviz_panel_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.570200] (rviz_panel_tutorial) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.599305] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.600530] (-) TimerEvent: {}
+[0.603404] (rviz) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.605130] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.645563] (rviz) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[0.674410] (rviz) StdoutLine: {'line': b'-- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[0.687258] (rviz) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[0.693276] (rviz) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.695141] (rviz) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.695315] (rviz) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.695398] (rviz) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.695481] (rviz) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.695560] (rviz) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.695640] (rviz) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.695736] (rviz) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[0.695790] (rviz) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.695857] (rviz) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.695906] (rviz) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.695948] (rviz) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.695989] (rviz) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.696032] (rviz) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.697730] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.698343] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.700611] (-) TimerEvent: {}
+[0.717425] (rviz) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.720855] (rviz) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.757082] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.757318] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.785733] (rviz) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.785918] (rviz) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.800724] (-) TimerEvent: {}
+[0.806288] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.806440] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.838455] (rviz) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.838609] (rviz) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.858844] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[0.859000] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for remove\n'}
+[0.889079] (rviz) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.889248] (rviz) StdoutLine: {'line': b'-- Looking for connect\n'}
+[0.900828] (-) TimerEvent: {}
+[0.908243] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[0.908438] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[0.939273] (rviz) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[0.939427] (rviz) StdoutLine: {'line': b'-- Looking for remove\n'}
+[0.959691] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[0.959869] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[0.991135] (rviz) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[0.991295] (rviz) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.000925] (-) TimerEvent: {}
+[1.008429] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.039768] (rviz) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.039986] (rviz) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.075080] (rviz_panel_tutorial) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.090624] (rviz) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.099567] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.101003] (-) TimerEvent: {}
+[1.103507] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.110974] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.120620] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.132646] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.158133] (rviz) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.201306] (-) TimerEvent: {}
+[1.202887] (rviz) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.203039] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.206132] (rviz) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.206352] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.231557] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.231917] (rviz) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.270829] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.271030] (rviz) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.273557] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.273681] (rviz) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.282930] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.283100] (rviz) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.285458] (rviz) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.285593] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.291908] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.292075] (rviz) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.300276] (rviz) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.300462] (rviz_panel_tutorial) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301350] (-) TimerEvent: {}
+[1.308834] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.309001] (rviz) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.361253] (rviz) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.361477] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.361569] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.361653] (rviz) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.401477] (-) TimerEvent: {}
+[1.413885] (rviz) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.414062] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.414760] (rviz) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.414871] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.483408] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.483548] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.483599] (rviz) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.483654] (rviz) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.501782] (-) TimerEvent: {}
+[1.583786] (rviz_panel_tutorial) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):\n'}
+[1.584001] (rviz_panel_tutorial) StderrLine: {'line': b'  Given plugin description file\n'}
+[1.584056] (rviz_panel_tutorial) StderrLine: {'line': b"  '/home/aditya/ros2_rviz/src/rviz_panel_tutorial/rviz_common_plugins.xml'\n"}
+[1.584094] (rviz_panel_tutorial) StderrLine: {'line': b'  does not exist\n'}
+[1.584133] (rviz_panel_tutorial) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.584169] (rviz_panel_tutorial) StderrLine: {'line': b'  CMakeLists.txt:41 (pluginlib_export_plugin_description_file)\n'}
+[1.584208] (rviz_panel_tutorial) StderrLine: {'line': b'\n'}
+[1.584244] (rviz_panel_tutorial) StderrLine: {'line': b'\x1b[0m\n'}
+[1.584281] (rviz_panel_tutorial) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.584325] (rviz_panel_tutorial) StdoutLine: {'line': b'See also "/home/aditya/ros2_rviz/build/rviz_panel_tutorial/CMakeFiles/CMakeOutput.log".\n'}
+[1.592455] (rviz_panel_tutorial) CommandEnded: {'returncode': 1}
+[1.602021] (-) TimerEvent: {}
+[1.612813] (rviz_panel_tutorial) JobEnded: {'identifier': 'rviz_panel_tutorial', 'rc': 1}
+[1.702116] (-) TimerEvent: {}
+[1.732537] (rviz) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):\n'}
+[1.732722] (rviz) StderrLine: {'line': b'  Packages installing interfaces must include\n'}
+[1.732780] (rviz) StderrLine: {'line': b"  '<member_of_group>rosidl_interface_packages</member_of_group>' in their\n"}
+[1.732817] (rviz) StderrLine: {'line': b'  package.xml\n'}
+[1.732852] (rviz) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.732887] (rviz) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[1.732921] (rviz) StderrLine: {'line': b'\n'}
+[1.732954] (rviz) StderrLine: {'line': b'\x1b[0m\n'}
+[1.732988] (rviz) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.733027] (rviz) StdoutLine: {'line': b'See also "/home/aditya/ros2_rviz/build/rviz/CMakeFiles/CMakeOutput.log".\n'}
+[1.742129] (rviz) JobEnded: {'identifier': 'rviz', 'rc': 'SIGINT'}
+[1.752737] (-) EventReactorShutdown: {}
