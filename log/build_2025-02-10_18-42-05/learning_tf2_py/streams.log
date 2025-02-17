@@ -1,0 +1,38 @@
+[0.427s] Invoking command in '/home/aditya/task_3/src/learning_tf2_py': PYTHONPATH=/home/aditya/task_3/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/aditya/task_3/build/learning_tf2_py/build install --record /home/aditya/task_3/build/learning_tf2_py/install.log --single-version-externally-managed install_data
+[0.597s] running egg_info
+[0.597s] creating ../../build/learning_tf2_py/learning_tf2_py.egg-info
+[0.598s] writing ../../build/learning_tf2_py/learning_tf2_py.egg-info/PKG-INFO
+[0.598s] writing dependency_links to ../../build/learning_tf2_py/learning_tf2_py.egg-info/dependency_links.txt
+[0.598s] writing entry points to ../../build/learning_tf2_py/learning_tf2_py.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../build/learning_tf2_py/learning_tf2_py.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/learning_tf2_py/learning_tf2_py.egg-info/top_level.txt
+[0.598s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.600s] reading manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.600s] adding license file 'LICENSE'
+[0.602s] writing manifest file '../../build/learning_tf2_py/learning_tf2_py.egg-info/SOURCES.txt'
+[0.602s] running build
+[0.602s] running build_py
+[0.603s] creating /home/aditya/task_3/build/learning_tf2_py/build
+[0.603s] creating /home/aditya/task_3/build/learning_tf2_py/build/lib
+[0.603s] creating /home/aditya/task_3/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.603s] copying learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/aditya/task_3/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.603s] copying learning_tf2_py/__init__.py -> /home/aditya/task_3/build/learning_tf2_py/build/lib/learning_tf2_py
+[0.603s] running install
+[0.603s] running install_lib
+[0.604s] creating /home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[0.604s] copying /home/aditya/task_3/build/learning_tf2_py/build/lib/learning_tf2_py/static_turtle_tf2_broadcaster.py -> /home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[0.604s] copying /home/aditya/task_3/build/learning_tf2_py/build/lib/learning_tf2_py/__init__.py -> /home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py
+[0.605s] byte-compiling /home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-310.pyc
+[0.606s] byte-compiling /home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py/__init__.py to __init__.cpython-310.pyc
+[0.606s] running install_data
+[0.606s] creating /home/aditya/task_3/install/learning_tf2_py/share/ament_index
+[0.606s] creating /home/aditya/task_3/install/learning_tf2_py/share/ament_index/resource_index
+[0.606s] creating /home/aditya/task_3/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.606s] copying resource/learning_tf2_py -> /home/aditya/task_3/install/learning_tf2_py/share/ament_index/resource_index/packages
+[0.606s] copying package.xml -> /home/aditya/task_3/install/learning_tf2_py/share/learning_tf2_py
+[0.606s] running install_egg_info
+[0.608s] Copying ../../build/learning_tf2_py/learning_tf2_py.egg-info to /home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages/learning_tf2_py-0.0.0-py3.10.egg-info
+[0.609s] running install_scripts
+[0.626s] Installing static_turtle_tf2_broadcaster script to /home/aditya/task_3/install/learning_tf2_py/lib/learning_tf2_py
+[0.627s] writing list of installed files to '/home/aditya/task_3/build/learning_tf2_py/install.log'
+[0.647s] Invoked command in '/home/aditya/task_3/src/learning_tf2_py' returned '0': PYTHONPATH=/home/aditya/task_3/build/learning_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aditya/task_3/install/learning_tf2_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learning_tf2_py build --build-base /home/aditya/task_3/build/learning_tf2_py/build install --record /home/aditya/task_3/build/learning_tf2_py/install.log --single-version-externally-managed install_data
