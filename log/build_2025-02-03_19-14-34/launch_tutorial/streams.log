@@ -1,0 +1,21 @@
+[0.621s] Invoking command in '/home/aditya/task_3/src/launch_tutorial': PYTHONPATH=/home/aditya/task_3/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aditya/task_3/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/aditya/task_3/build/launch_tutorial/build install --record /home/aditya/task_3/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[0.795s] running egg_info
+[0.795s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[0.795s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[0.795s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[0.795s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[0.795s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[0.796s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.797s] adding license file 'LICENSE'
+[0.797s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.797s] running build
+[0.797s] running build_py
+[0.798s] running install
+[0.798s] running install_lib
+[0.799s] running install_data
+[0.799s] running install_egg_info
+[0.800s] removing '/home/aditya/task_3/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[0.801s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/aditya/task_3/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[0.801s] running install_scripts
+[0.817s] writing list of installed files to '/home/aditya/task_3/build/launch_tutorial/install.log'
+[0.841s] Invoked command in '/home/aditya/task_3/src/launch_tutorial' returned '0': PYTHONPATH=/home/aditya/task_3/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aditya/task_3/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/aditya/task_3/build/launch_tutorial/build install --record /home/aditya/task_3/build/launch_tutorial/install.log --single-version-externally-managed install_data

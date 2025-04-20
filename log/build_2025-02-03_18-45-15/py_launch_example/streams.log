@@ -1,0 +1,36 @@
+[0.458s] Invoking command in '/home/aditya/task_3/src/py_launch_example': PYTHONPATH=/home/aditya/task_3/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/aditya/task_3/build/py_launch_example/build install --record /home/aditya/task_3/build/py_launch_example/install.log --single-version-externally-managed install_data
+[0.624s] running egg_info
+[0.625s] creating ../../build/py_launch_example/py_launch_example.egg-info
+[0.625s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[0.625s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[0.625s] writing entry points to ../../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[0.625s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[0.625s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[0.626s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.628s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.628s] adding license file 'LICENSE'
+[0.629s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[0.629s] running build
+[0.629s] running build_py
+[0.629s] creating /home/aditya/task_3/build/py_launch_example/build
+[0.630s] creating /home/aditya/task_3/build/py_launch_example/build/lib
+[0.630s] creating /home/aditya/task_3/build/py_launch_example/build/lib/py_launch_example
+[0.630s] copying py_launch_example/__init__.py -> /home/aditya/task_3/build/py_launch_example/build/lib/py_launch_example
+[0.630s] running install
+[0.630s] running install_lib
+[0.630s] creating /home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[0.630s] copying /home/aditya/task_3/build/py_launch_example/build/lib/py_launch_example/__init__.py -> /home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages/py_launch_example
+[0.631s] byte-compiling /home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages/py_launch_example/__init__.py to __init__.cpython-310.pyc
+[0.631s] running install_data
+[0.631s] creating /home/aditya/task_3/install/py_launch_example/share/ament_index
+[0.631s] creating /home/aditya/task_3/install/py_launch_example/share/ament_index/resource_index
+[0.631s] creating /home/aditya/task_3/install/py_launch_example/share/ament_index/resource_index/packages
+[0.631s] copying resource/py_launch_example -> /home/aditya/task_3/install/py_launch_example/share/ament_index/resource_index/packages
+[0.631s] copying package.xml -> /home/aditya/task_3/install/py_launch_example/share/py_launch_example
+[0.631s] creating /home/aditya/task_3/install/py_launch_example/share/py_launch_example/launch
+[0.631s] copying launch/my_script_launch.py -> /home/aditya/task_3/install/py_launch_example/share/py_launch_example/launch
+[0.631s] running install_egg_info
+[0.633s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages/py_launch_example-0.0.0-py3.10.egg-info
+[0.633s] running install_scripts
+[0.650s] writing list of installed files to '/home/aditya/task_3/build/py_launch_example/install.log'
+[0.669s] Invoked command in '/home/aditya/task_3/src/py_launch_example' returned '0': PYTHONPATH=/home/aditya/task_3/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aditya/task_3/install/py_launch_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/aditya/task_3/build/py_launch_example/build install --record /home/aditya/task_3/build/py_launch_example/install.log --single-version-externally-managed install_data

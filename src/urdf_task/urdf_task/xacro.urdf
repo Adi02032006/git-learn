@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="testing1">
+
+    <!-- Define parameters -->
+    <xacro:property name="leglen" value="0.5"/>  <!-- Example length of the leg -->
+    <xacro:property name="width" value="0.2"/>    <!-- Example width -->
+    <xacro:property name="my_pi" value="3.14159"/>   <!-- Renamed pi to my_pi -->
+
+    <xacro:macro name="leg" params="prefix reflect">
+        <link name="${prefix}_leg">
+            <visual>
+                <geometry>
+                    <box size="${leglen} 0.1 0.2"/>
+                </geometry>
+                <origin xyz="0 0 -${leglen/2}" rpy="0 ${my_pi/2} 0"/>  <!-- Use my_pi -->
+                <material name="white"/>
+            </visual>
+            <collision>
+                <geometry>
+                    <box size="${leglen} 0.1 0.2"/>
+                </geometry>
+                <origin xyz="0 0 -${leglen/2}" rpy="0 ${my_pi/2} 0"/>  <!-- Use my_pi -->
+            </collision>
+            <inertial>
+                <mass value="10"/>
+                <inertia ixx="1e-3" ixy="0.0" ixz="0.0" iyy="1e-3" iyz="0.0" izz="1e-3"/>
+            </inertial>
+        </link>
+
+        <joint name="base_to_${prefix}_leg" type="fixed">
+            <parent link="base_link"/>
+            <child link="${prefix}_leg"/>
+            <origin xyz="0 ${reflect*(width + 0.02)} 0.25"/>
+        </joint>
+        <!-- A bunch of stuff cut -->
+    </xacro:macro>
+
+    <xacro:leg prefix="right" reflect="1" />
+    <xacro:leg prefix="left" reflect="-1" />
+
+</robot>
